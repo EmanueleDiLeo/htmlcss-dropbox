@@ -50,8 +50,13 @@ ul{
   flex-direction: column;
 }
 
+.flex-shrink{
+  flex-shrink: 0;
+}
+
 .btn{
   display: inline-block;
+  text-decoration: none;
   padding: 10px;
   background-color: var(--lightblue);
   color: white;
@@ -84,11 +89,6 @@ select{
   height: 100%;
 }
 
-header a{
-  text-decoration: none;
-  color: black;
-}
-
 header nav{
   height: 100%;
 }
@@ -104,6 +104,8 @@ header div{
 
 header a{
 padding: 30px 20px;
+text-decoration: none;
+color: black;
 }
 
 header .btn{
@@ -177,7 +179,7 @@ h1{
 /* subscription */
 
 .plan{
-  margin-top: 130px;
+  margin-top: 150px;
 }
 
 .plan h2{
@@ -192,9 +194,11 @@ h1{
 
 .row{
   margin-top: 30px;
+  flex-wrap: wrap;
 }
 
 .card{
+  margin-left: 40px;
   border: 1px solid var(--grey);
 }
 
@@ -207,6 +211,7 @@ h1{
 
 .col{
   width: calc(100% / 3);
+  margin-bottom: 40px;
 }
 
 span.border{
@@ -219,7 +224,7 @@ span.border{
 }
 
 .card-text{
-  padding: 30px 0 30px 20px;
+  padding: 30px 20px 30px 20px;
 }
 
 .card-text h3{
@@ -247,5 +252,28 @@ span.border{
   padding-bottom: 30px;
   padding-bottom: 30px; 
   border-bottom: 1px solid var(--grey);
+  margin-bottom: 40px;
 }
 
+.card-text h4{
+  padding-bottom: 30px;
+}
+
+.card-text .fa-check{
+  color: var(--lightblue);
+}
+
+.card .width-big{
+  width: 70%;
+}
+
+.card .width-big p{
+  padding-top: 50px;
+  width:100%;
+}
+
+.card .width-small{
+  padding-left: 30px;
+  width: 30%;
+  height: 100%;
+}
