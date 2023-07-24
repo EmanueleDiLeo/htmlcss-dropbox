@@ -5,3 +5,58 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/* *****************************************  UTILITY ***********************/
+
+.flex{
+  display: flex;
+}
+
+.justify-between{
+  justify-content: space-between;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.bt-small{
+  padding: 10px;
+  background-color: #0061ff;
+  color: white;
+}
+
+/* *****************************************  HEADER *********************** */
+
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  border-bottom: 1px solid white;
+}
+
+
+header img{
+  padding: 20px;
+}
+
+header a{
+margin: 20px;
+}
+
+header div:hover{
+  padding: 20px;
+  border-bottom: 2px solid #0061ff;
+}
+
+
