@@ -20,6 +20,10 @@ a{
   color: black;
 }
 
+ul{
+  list-style: none;
+}
+
 /* *****************************************  UTILITY ***********************/
 
 .flex{
@@ -55,7 +59,7 @@ a{
 }
 
 .container-small{
-  width: 80%;
+  width: 60%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -68,7 +72,6 @@ header{
   top: 0;
   width: 100%;
   z-index: 999;
-  /* border-bottom: 1px solid white; */
   height: 80px;
 }
 
@@ -97,11 +100,17 @@ header .bt-small{
 margin-right: 20px;
 }
 
+header li{
+  display: inline-block;
+}
+
 /* TODO: Vedere se si può migliorate */
-header div:hover{
+header li:hover{
   padding: 30px 0;
   border-bottom: 2px solid var(--lightblue);
 }
+
+
 
 
 /* ******************************************  MAIN *********************** */
