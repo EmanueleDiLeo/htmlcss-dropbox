@@ -16,11 +16,6 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
-
 ul{
   list-style: none;
 }
@@ -35,6 +30,10 @@ ul{
   justify-content: space-between;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
 .text-center{
   text-align: center;
 }
@@ -43,11 +42,16 @@ ul{
   align-items: center;
 }
 
+.align-start{
+  align-items: start;
+}
+
 .flex-column{
   flex-direction: column;
 }
 
 .btn{
+  display: inline-block;
   padding: 10px;
   background-color: var(--lightblue);
   color: white;
@@ -78,6 +82,11 @@ header{
 
 select{
   height: 100%;
+}
+
+header a{
+  text-decoration: none;
+  color: black;
 }
 
 header nav{
@@ -120,10 +129,16 @@ main{
   padding-top: 80px;
 }
 
+/* jumbo-box */
 
 .jumbo-box{
   position: relative;
   background-color: var(--lightgrey);
+}
+
+.jumbo-box a{
+  text-decoration: none;
+  color: black;
 }
 
 h1{
@@ -165,9 +180,18 @@ h1{
   margin-top: 130px;
 }
 
+.plan h2{
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
 .plan span{
   display: inline-block;
-  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.row{
+  margin-top: 30px;
 }
 
 .card{
@@ -185,6 +209,43 @@ h1{
   width: calc(100% / 3);
 }
 
-ul li:first-child{
-
+span.border{
+  display: inline-block;
+  border-bottom: 1px solid var(--grey);
 }
+
+.card ul span{
+  padding-left:5px;
+}
+
+.card-text{
+  padding: 30px 0 30px 20px;
+}
+
+.card-text h3{
+  padding-bottom:  20px;
+}
+
+.card-text .time{
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.card-text li{
+  padding-bottom: 20px;
+}
+
+.card-text .btn{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.card-text .border{
+  padding-right: 5px;
+  display: inline-block;
+  padding-bottom: 30px;
+  padding-bottom: 30px; 
+  border-bottom: 1px solid var(--grey);
+}
+
