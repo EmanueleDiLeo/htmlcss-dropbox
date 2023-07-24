@@ -1,9 +1,18 @@
 /* ****************************************   GENERAL    *********************/
+:root{
+  --lightblue:#0061ff;
+  --lightgrey:#b4d0e7;
+}
+
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a{
@@ -29,34 +38,95 @@ a{
   align-items: center;
 }
 
+.flex-column{
+  flex-direction: column;
+}
+
 .bt-small{
   padding: 10px;
-  background-color: #0061ff;
+  background-color: var(--lightblue);
   color: white;
+}
+
+.container-big{
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-small{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* *****************************************  HEADER *********************** */
 
 header{
+  background-color: white;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
-  border-bottom: 1px solid white;
+  /* border-bottom: 1px solid white; */
+  height: 80px;
 }
 
+select{
+  height: 100%;
+}
+
+header nav{
+  height: 100%;
+}
 
 header img{
-  padding: 20px;
+  padding: 30px 20px;
+}
+
+header div{
+  text-align: center;
+  height: 100%;
 }
 
 header a{
-margin: 20px;
+padding: 30px 20px;
 }
 
+header .bt-small{
+margin-right: 20px;
+}
+
+/* TODO: Vedere se si può migliorate */
 header div:hover{
-  padding: 20px;
-  border-bottom: 2px solid #0061ff;
+  padding: 30px 0;
+  border-bottom: 2px solid var(--lightblue);
 }
 
 
+/* ******************************************  MAIN *********************** */
+
+main{
+  padding-top: 80px;
+}
+
+
+.jumbo-box{
+  background-color: var(--lightgrey);
+}
+
+h1{
+  font-size: 5rem;
+  padding:80px 0;
+
+}
+
+#small-box{
+
+  align-items: start;
+  padding-bottom:150px ;
+}
+
+#small-box a{
+  margin: 30px 0;
+}
