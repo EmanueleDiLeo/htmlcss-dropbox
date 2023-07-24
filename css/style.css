@@ -2,6 +2,7 @@
 :root{
   --lightblue:#0061ff;
   --lightgrey:#b4d0e7;
+  --grey:#e5e5e6;
 }
 
 
@@ -156,4 +157,34 @@ h1{
 
   font-size: 3rem;
   padding-bottom: 10px;
+}
+
+/* subscription */
+
+.plan{
+  margin-top: 130px;
+}
+
+.plan span{
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.card{
+  border: 1px solid var(--grey);
+}
+
+.intro-plan{
+  border-bottom: 1px solid var(--grey);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+}
+
+.col{
+  width: calc(100% / 3);
+}
+
+ul li:first-child{
+
 }
