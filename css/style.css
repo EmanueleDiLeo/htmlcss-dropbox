@@ -3,6 +3,7 @@
   --lightblue:#0061ff;
   --lightgrey:#b4d0e7;
   --grey:#e5e5e6;
+  --white:white;
 }
 
 
@@ -59,7 +60,7 @@ ul{
   text-decoration: none;
   padding: 10px;
   background-color: var(--lightblue);
-  color: white;
+  color: var(--white);
 }
 
 .container-big{
@@ -77,16 +78,12 @@ ul{
 /* *****************************************  HEADER *********************** */
 
 header{
-  background-color: white;
+  background-color: var(--white);
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 999;
   height: 80px;
-}
-
-select{
-  height: 100%;
 }
 
 header nav{
@@ -119,7 +116,7 @@ header li{
 
 header li:hover{
   padding: 28px 0;
-  border-top: 2px solid  white;
+  border-top: 2px solid var(--white);
   border-bottom: 2px solid var(--lightblue);
 }
 
@@ -132,7 +129,7 @@ main{
   padding-top: 80px;
 }
 
-/* jumbo-box */
+/************************************** jumbo-box */
 
 .jumbo-box{
   position: relative;
@@ -177,10 +174,14 @@ h1{
   padding-bottom: 10px;
 }
 
-/* subscription */
+/*************************** subscription */
 
 .plan{
   margin-top: 150px;
+}
+
+#subscription{
+  margin-bottom: 150px;
 }
 
 .plan h2{
@@ -277,3 +278,42 @@ span.border{
   padding-left: 30px;
   width: 30%;
 }
+
+
+/************************ PARTNER */
+
+#partner{
+display: inline-block;
+position: relative;
+}
+
+#partner img{
+  display: inline-block;
+  max-width: 100%;
+}
+
+.partner-img{
+  display: inline-block;
+  max-width: 55%;
+}
+
+.partner-text{
+  display: inline-block;
+  position: absolute;
+  left: 60%;
+  top: 60px;
+  max-width: 28%;
+}
+
+#partner h3{
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+#partner .btn{
+  margin-top: 20px;
+  background-color: var(--white);
+  color: black;
+  border: 1px solid black;
+}
+
