@@ -17,6 +17,14 @@ body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h2{
+  font-size: 2rem;
+}
+
+h3{
+  font-size: 1.6rem;
+}
+
 ul{
   list-style: none;
 }
@@ -183,7 +191,6 @@ h1{
 }
 
 .plan h2{
-  font-size: 2rem;
   margin-bottom: 40px;
 }
 
@@ -285,7 +292,7 @@ margin-bottom: 150px;
 }
 
 #partner img{
-  max-width: 100%;
+  width: 100%;
 }
 
 .partner-img{
@@ -309,4 +316,28 @@ margin-bottom: 150px;
   color: black;
   border: 1px solid black;
 }
+
+/* ****************************** BUSINESS */
+
+
+#business h3{
+  padding: 10px 0 30px 0;
+}
+
+.business-card{
+  margin-right: 40px;
+}
+
+/* ******************************** EXTRA */
+
+#extra-b{
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#extra-b h2{
+  margin-bottom: 50px;
+}
+
+/* ******************************* DESIGNIT */
 
