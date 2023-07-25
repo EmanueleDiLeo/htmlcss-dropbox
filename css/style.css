@@ -116,9 +116,10 @@ header li{
   display: inline-block;
 }
 
-/* TODO: Vedere se si può migliorate */
+
 header li:hover{
   padding: 28px 0;
+  border-top: 2px solid  white;
   border-bottom: 2px solid var(--lightblue);
 }
 
@@ -275,5 +276,4 @@ span.border{
 .card .width-small{
   padding-left: 30px;
   width: 30%;
-  height: 100%;
 }
