@@ -432,3 +432,25 @@ margin-bottom: 150px;
 .bg-clear{
   background-color: var(--yellow);
 }
+
+/* ********************************** free test */
+
+#free-test{
+  background-color: var(--lightgrey);
+  padding: 100px 0;
+  margin-bottom: 150px;
+}
+
+#free-test h2{
+  color: var(--ligthviolet);
+}
+
+#free-test .box-h2{
+  margin-right: 340px;
+}
+
+#free-test .btn{
+  color: var(--black);
+  background-color: var(--white);
+  padding: 10px 40px;
+}
