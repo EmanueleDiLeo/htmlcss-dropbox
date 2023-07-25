@@ -64,13 +64,11 @@ ul{
 }
 
 .container-big{
-  width: 70%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .container-small{
-  width: 60%;
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -283,26 +281,21 @@ span.border{
 /************************ PARTNER */
 
 #partner{
-display: inline-block;
-position: relative;
+margin-bottom: 150px;
 }
 
 #partner img{
-  display: inline-block;
   max-width: 100%;
 }
 
 .partner-img{
-  display: inline-block;
-  max-width: 55%;
+  max-width: 65%;
 }
 
 .partner-text{
-  display: inline-block;
-  position: absolute;
-  left: 60%;
-  top: 60px;
-  max-width: 28%;
+  padding-top: 60px;
+  margin-left: 40px;
+  max-width: 35%;
 }
 
 #partner h3{
