@@ -4,6 +4,16 @@
   --lightgrey:#b4d0e7;
   --grey:#e5e5e6;
   --white:white;
+  --lightgreen:#a2d39b;
+  --lightbrown:#61082b;
+  --morelightblue:#0093ce;
+  --lightred:#ff1c1c;
+  --red:#d5001f;
+  --blue:#0d2481;
+  --yellow:#ffd830;
+  --black:#000000;
+  --ligthviolet:#62092B;
+
 }
 
 
@@ -41,6 +51,10 @@ ul{
 
 .justify-around{
   justify-content: space-around;
+}
+
+.justify-center{
+  justify-content: center;
 }
 
 .text-center{
@@ -313,8 +327,8 @@ margin-bottom: 150px;
 #partner .btn{
   margin-top: 20px;
   background-color: var(--white);
-  color: black;
-  border: 1px solid black;
+  color: var(--black);
+  border: 1px solid var(--black);
 }
 
 /* ****************************** BUSINESS */
@@ -341,3 +355,80 @@ margin-bottom: 150px;
 
 /* ******************************* DESIGNIT */
 
+#all-designit{
+ width: 100%;
+ height: 100%;
+}
+
+#all-designit .box-left,
+#all-designit .box-center,
+#all-designit .box-right
+{
+  width: calc(100% / 3);
+  height: 100%;
+}
+
+#all-designit .the-box{
+  aspect-ratio: 1 / 1;
+  width: 50%;
+  height: 50%;
+}
+
+#all-designit .box-center{
+  aspect-ratio: 1 / 1;
+  background-color: var(--grey);
+}
+
+#all-designit img{
+  width: 50%;
+  height: auto;
+}
+
+#all-designit .box-center{
+  padding: 60px 50px;
+}
+
+#all-designit .box-center p{
+  padding: 40px 0;
+}
+
+#all-designit .box-center hr{
+  width: 100px;
+  margin-top: 40px;
+}
+
+#all-designit .the-box img{
+  filter: invert(1);
+}
+
+.bg-designit{
+  background-color: var(--lightgreen);
+}
+
+.bg-arizona{
+  background-color: var(--lightbrown);
+}
+
+.bg-florida{
+  background-color: var(--morelightblue);
+}
+
+.bg-topps{
+  background-color: var(--lightred);
+}
+
+.bg-world{
+  background-color: var(--red);
+}
+
+.bg-hearst{
+  background-color: var(--lightgrey);
+}
+
+.bg-lonely{
+  background-color: var(--blue);
+}
+
+.bg-clear{
+  background-color: var(--yellow);
+}
