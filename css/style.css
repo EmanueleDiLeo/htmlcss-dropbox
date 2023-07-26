@@ -409,10 +409,10 @@ margin-bottom: 150px;
   background-color: var(--lightgreen);
 }
 
-/* .bg-designit:active{
-  box-shadow:-20px -20px #d0e9cd inset;
-  box-shadow:20px 20px #d0e9cd inset;
-} */
+.bg-designit:active{
+  box-shadow:-20px -20px rgba(255, 255, 255, 0.5) inset, 20px 20px rgba(255, 255, 255, 0.5) inset;
+
+}
 
 .bg-arizona{
   background-color: var(--lightbrown);
@@ -452,10 +452,6 @@ margin-bottom: 150px;
 
 #free-test h2{
   color: var(--ligthviolet);
-}
-
-#free-test .box-h2{
-  margin-right: 340px;
 }
 
 #free-test .btn{
