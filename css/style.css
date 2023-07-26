@@ -409,9 +409,8 @@ margin-bottom: 150px;
   background-color: var(--lightgreen);
 }
 
-.bg-designit:active{
-  box-shadow:-20px -20px rgba(255, 255, 255, 0.5) inset, 20px 20px rgba(255, 255, 255, 0.5) inset;
-
+.the-box.active{
+  box-shadow:0px 0px 0px 20px rgba(255, 255, 255, 0.5) inset;
 }
 
 .bg-arizona{
