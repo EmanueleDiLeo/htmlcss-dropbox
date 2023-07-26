@@ -104,6 +104,7 @@ header{
   width: 100%;
   z-index: 999;
   height: 80px;
+  border: 1px solid var(--grey);
 }
 
 header nav{
@@ -135,9 +136,9 @@ header li{
 
 
 header li:hover{
-  padding: 28px 0;
-  border-top: 2px solid var(--white);
-  border-bottom: 2px solid var(--lightblue);
+  padding: 26px 0;
+  border-top: 3px solid var(--white);
+  border-bottom: 3px solid var(--lightblue);
 }
 
 
@@ -366,17 +367,20 @@ margin-bottom: 150px;
 {
   width: calc(100% / 3);
   height: 100%;
+  min-width: 220px;
 }
 
 #all-designit .the-box{
   aspect-ratio: 1 / 1;
   width: 50%;
   height: 50%;
+  
 }
 
 #all-designit .box-center{
   aspect-ratio: 1 / 1;
   background-color: var(--grey);
+  overflow-y:auto;
 }
 
 #all-designit img{
@@ -404,6 +408,11 @@ margin-bottom: 150px;
 .bg-designit{
   background-color: var(--lightgreen);
 }
+
+/* .bg-designit:active{
+  box-shadow:-20px -20px #d0e9cd inset;
+  box-shadow:20px 20px #d0e9cd inset;
+} */
 
 .bg-arizona{
   background-color: var(--lightbrown);
@@ -433,7 +442,7 @@ margin-bottom: 150px;
   background-color: var(--yellow);
 }
 
-/* ********************************** free test */
+/* ********************************** FREE TEST */
 
 #free-test{
   background-color: var(--lightgrey);
@@ -453,4 +462,19 @@ margin-bottom: 150px;
   color: var(--black);
   background-color: var(--white);
   padding: 10px 40px;
+}
+
+/* ************************************* REQUESTS */
+
+#start-request{
+  margin-bottom: 150px;
+}
+
+#start-request h2{
+  margin-bottom: 50px;
+}
+
+#start-request div{
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
