@@ -157,7 +157,7 @@ main{
   background-color: var(--lightgrey);
 }
 
-.jumbo-box a{
+.jumbo-box .fa-solid{
   text-decoration: none;
   color: black;
 }
@@ -165,11 +165,9 @@ main{
 h1{
   font-size: 5rem;
   padding:50px 0;
-
 }
 
 #small-box{
-
   align-items: start;
   padding-bottom:65px ;
 }
@@ -190,7 +188,6 @@ h1{
 }
 
 .jumbo-box .fa-arrow-down{
-
   font-size: 3rem;
   padding-bottom: 10px;
 }
