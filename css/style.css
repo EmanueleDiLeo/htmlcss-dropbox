@@ -24,7 +24,7 @@
 }
 
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2{
@@ -75,6 +75,10 @@ ul{
 
 .flex-shrink{
   flex-shrink: 0;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .btn{
